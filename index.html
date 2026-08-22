@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediCore HMS — Hospital & Clinic Management System</title>
+  <meta name="description" content="MediCore HMS — Enterprise-grade multi-tenant hospital and clinic management system for modern healthcare operations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Lucide Icons via CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="/src/styles/base.css" />
+  <link rel="stylesheet" href="/src/styles/layout.css" />
+  <link rel="stylesheet" href="/src/styles/components.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Role Switcher Bar -->
+    <div id="role-switcher-bar"></div>
+    <!-- App Shell -->
+    <div id="shell" class="shell">
+      <aside id="sidebar" class="sidebar"></aside>
+      <div class="main-area">
+        <header id="topbar" class="topbar"></header>
+        <main id="content" class="content-area"></main>
+      </div>
+    </div>
+    <!-- Toast Container -->
+    <div id="toast-container" class="toast-container"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
